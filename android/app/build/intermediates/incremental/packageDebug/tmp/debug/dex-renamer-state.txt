@@ -1,0 +1,4 @@
+#Thu Nov 29 16:34:11 WIB 2018
+base.0=/home/bitindo/myApp/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+path.0=classes.dex
