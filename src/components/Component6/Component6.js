@@ -9,6 +9,7 @@ export default class Component6 extends Component{
             username: this.props.user.username,
             email: this.props.user.email,
             website: this.props.user.website,
+            address: this.props.user.address,
             company: this.props.user.company
         }
     }
@@ -26,6 +27,7 @@ export default class Component6 extends Component{
                 <Text style={styles.detail}>Username : {this.state.username}</Text>
                 <Text style={styles.detail}>Email : {this.state.email}</Text>
                 <Text style={styles.detail}>Website : {this.state.website}</Text>
+                <Text style={styles.detail}>Address : {this.state.address.street}</Text>
                 <Text style={styles.detail}>Company : {this.state.company.name}</Text>
                 <Button
                     onPress={this.onPress.bind(this)}
