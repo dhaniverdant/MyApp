@@ -23,16 +23,21 @@ export default class Component6 extends Component{
     render(){
         return(
             <View>
-                <Text style={styles.detail}>Details About {this.state.name}</Text>
-                <Text style={styles.detail}>Username : {this.state.username}</Text>
-                <Text style={styles.detail}>Email : {this.state.email}</Text>
-                <Text style={styles.detail}>Website : {this.state.website}</Text>
-                <Text style={styles.detail}>Address : {this.state.address.street}</Text>
-                <Text style={styles.detail}>Company : {this.state.company.name}</Text>
-                <Button
-                    onPress={this.onPress.bind(this)}
-                    title="Back"
-                />
+                <View>
+                    <Text style={styles.detailsAbout}>Details About {this.state.name}</Text>
+                    <Text style={styles.detail}>Username : {this.state.username}</Text>
+                    <Text style={styles.detail}>Email : {this.state.email}</Text>
+                    <Text style={styles.detail}>Website : {this.state.website}</Text>
+                    <Text style={styles.detail}>Address : {this.state.address.street}</Text>
+                    <Text style={styles.detail}>Company : {this.state.company.name}</Text>
+                </View>
+                <View style={styles.button}>
+                    <Button
+                        onPress={this.onPress.bind(this)}
+                        title="Go Back"
+                        color="#946"
+                    />
+                </View>
             </View>
         );
     }
@@ -44,6 +49,18 @@ const styles = StyleSheet.create ({
         justifyContent: 'center',
         padding: 10,
         backgroundColor: '#94d4e8'
+    },
+    detailsAbout: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        padding: 10,
+        fontWeight: 'bold',
+        color: '#000000',
+        backgroundColor: '#94d4e8'
+    },
+    button: {
+        flexDirection: 'row',
+        width: '50%'
     }
 })
 
