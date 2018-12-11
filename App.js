@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {AppRegistry, Text, View} from 'react-native';
 
-import Component7 from './src/components/Component7/Component7';
+import ModalExample from './src/components/ModalExample/ModalExample';
 
 export default class MyApp extends Component{
 
   render(){
     return(
-      <Component7/>
+      <ModalExample/>
     );
   }
 }
