@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { AppRegistry, View, Image, StyleSheet, Dimensions } from 'react-native';
+import { AppRegistry, Text, View, Image, StyleSheet, Dimensions, ImageBackground } from 'react-native';
 
 export default class Component7 extends Component {
   
@@ -17,6 +17,13 @@ export default class Component7 extends Component {
         <Image
           source={{uri: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAAEXRFWHRTb2Z0d2FyZQBwbmdjcnVzaEB1SfMAAABQSURBVGje7dSxCQBACARB+2/ab8BEeQNhFi6WSYzYLYudDQYGBgYGBgYGBgYGBgYGBgZmcvDqYGBgmhivGQYGBgYGBgYGBgYGBgYGBgbmQw+P/eMrC5UTVAAAAABJRU5ErkJggg=='}}
         />
+
+        <ImageBackground
+          source={{uri: 'http://goinkscape.com/wp-content/uploads/2015/04/transparent-5.png'}}
+          style={{reziseMode: 'strech'}}
+        >
+          <Text>This is a text over image</Text>
+        </ImageBackground>
       </View>
     );
   }
@@ -27,7 +34,9 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     height: 150,
     width: 200,
-    borderWidth: 1
+    borderWidth: 1,
+    borderRadius: 7,
+    marginBottom: 10
   }
 })
 
