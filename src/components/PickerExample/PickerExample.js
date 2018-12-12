@@ -2,10 +2,17 @@ import React, { Component } from 'react';
 import { AppRegistry, View, Text, Picker, StyleSheet } from 'react-native'
 
 export default class PickerExample extends Component {
-   state = {user: ''}
+   constructor(){
+      super();
+      this.state = {
+         user: ''
+      }
+   }
+   
    updateUser = (user) => {
       this.setState({ user: user })
    }
+
    render() {
       return (
          <View>
