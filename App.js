@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {AppRegistry, Text, View} from 'react-native';
 
-import PickerExample from './src/components/PickerExample/PickerExample';
+import RefreshControlExample from './src/components/RefreshControlExample/RefreshControlExample';
 
 export default class MyApp extends Component{
 
   render(){
     return(
-      <PickerExample/>
+      <RefreshControlExample/>
     );
   }
 }

@@ -16,7 +16,7 @@ export default class PickerExample extends Component {
    render() {
       return (
          <View>
-            <Picker selectedValue = {this.state.user} onValueChange = {this.updateUser}>
+            <Picker style={styles.picker} selectedValue = {this.state.user} onValueChange = {this.updateUser}>
                <Picker.Item label = "Steve" value = "steve" />
                <Picker.Item label = "Ellen" value = "ellen" />
                <Picker.Item label = "Maria" value = "maria" />
@@ -32,6 +32,10 @@ const styles = StyleSheet.create({
       fontSize: 30,
       alignSelf: 'center',
       color: 'red'
+   },
+   picker: {
+      height: 50,
+      width: 100
    }
 });
 
