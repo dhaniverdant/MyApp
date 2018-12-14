@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {AppRegistry, Text, View} from 'react-native';
 
-import RefreshControlExample from './src/components/RefreshControlExample/RefreshControlExample';
+import ScrollViewExample from './src/components/ScrollViewExample/ScrollViewExample';
 
 export default class MyApp extends Component{
 
   render(){
     return(
-      <RefreshControlExample/>
+      <ScrollViewExample/>
     );
   }
 }
