@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {AppRegistry, Text, View} from 'react-native';
 
-import ScrollViewExample from './src/components/ScrollViewExample/ScrollViewExample';
+import SectionListExample from './src/components/SectionListExample/SectionListExample';
 
 export default class MyApp extends Component{
 
   render(){
     return(
-      <ScrollViewExample/>
+      <SectionListExample/>
     );
   }
 }
