@@ -43,30 +43,31 @@ export default class SectionListExample extends Component {
         return (
             <View style={styles.container}>
                 <SectionList
-                sections={this.state.data}
-                renderSectionHeader={({section}) => {
-                    return (
-                    <View style={styles.titleContainer}>
-                        <Text style={styles.title}>
-                        {section.title}
-                        </Text>
-                    </View>
-                    )
-                }}
-                renderItem={({item}) => {
-                    return (
-                    <View style={styles.container}>
-                    <TouchableOpacity onPress={() => {}}>
-                        <Image style={styles.image} source={{uri: item.image}}/>
-                    </TouchableOpacity>
-                    <View style={styles.content}>
-                        <View style={styles.contentHeader}>
-                        <Text  style={styles.name}>{item.name}</Text>
-                        </View>
-                    </View>
-                    </View>
-                    )
-                }}/>
+                    sections={this.state.data}
+                    renderSectionHeader={({section}) => {
+                        return (
+                            <View style={styles.titleContainer}>
+                                <Text style={styles.title}>
+                                {section.title}
+                                </Text>
+                            </View>
+                        )
+                    }}
+                    renderItem={({item}) => {
+                        return (
+                            <View style={styles.container}>
+                                <TouchableOpacity onPress={() => {}}>
+                                    <Image style={styles.image} source={{uri: item.image}}/>
+                                </TouchableOpacity>
+                                <View style={styles.content}>
+                                    <View style={styles.contentHeader}>
+                                        <Text  style={styles.name}>{item.name}</Text>
+                                    </View>
+                                </View>
+                            </View>
+                        )
+                    }}
+                />
             </View>
         );
     }
