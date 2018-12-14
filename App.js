@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {AppRegistry, Text, View} from 'react-native';
 
-import SectionListExample from './src/components/SectionListExample/SectionListExample';
+import SliderExample from './src/components/SliderExample/SliderExample';
 
 export default class MyApp extends Component{
 
   render(){
     return(
-      <SectionListExample/>
+      <SliderExample/>
     );
   }
 }
