@@ -4,6 +4,7 @@ import {
     StyleSheet,
     Text,
     View,
+    StatusBar,
     Slider
 } from 'react-native';
 
@@ -40,6 +41,7 @@ export default class SliderExample extends Component {
                     Double tap R on your keyboard to reload,{'\n'}
                     Shake or press menu button for dev menu
                 </Text>
+                <StatusBar barStyle = "light-content" hidden = {false} backgroundColor = "#00BCD4" translucent = {true}/>
             </View>
         );
     }
