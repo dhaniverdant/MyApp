@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {AppRegistry, Text, View} from 'react-native';
 
-import TextExample from './src/components/TextExample/TextExample';
+import TextInputExample from './src/components/TextInputExample/TextInputExample';
 
 export default class MyApp extends Component{
 
   render(){
     return(
-      <TextExample/>
+      <TextInputExample/>
     );
   }
 }
