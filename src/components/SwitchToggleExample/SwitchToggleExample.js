@@ -46,12 +46,7 @@ export default class SwitchToggleExample extends Component {
 
                 <SwitchToggle
                     containerStyle={styles.containerDua}
-                    circleStyle={{
-                        width: 38,
-                        height: 38,
-                        borderRadius: 19,
-                        backgroundColor: 'white'
-                    }}
+                    circleStyle={styles.circleDua}
                     switchOn={this.state.switchOn2}
                     onPress={this.onPress2}
                     circleColorOff='white'
@@ -141,6 +136,12 @@ const styles = StyleSheet.create({
         borderRadius: 25,
         backgroundColor: '#ccc',
         padding: 5
+    },
+    circleDua: {
+        width: 38,
+        height: 38,
+        borderRadius: 19,
+        backgroundColor: 'white'
     }
 });
 
