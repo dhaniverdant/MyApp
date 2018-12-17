@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {AppRegistry, Text, View} from 'react-native';
 
-import SliderExample from './src/components/SliderExample/SliderExample';
+import SwitchToggleExample from './src/components/SwitchToggleExample/SwitchToggleExample';
 
 export default class MyApp extends Component{
 
   render(){
     return(
-      <SliderExample/>
+      <SwitchToggleExample/>
     );
   }
 }
