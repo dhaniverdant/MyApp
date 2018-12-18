@@ -16,7 +16,7 @@ export default class Component5 extends Component{
 
     fetchUsers(){
         fetch('https://jsonplaceholder.typicode.com/users')
-            .then((response) => response.json()) //async
+            .then((response) => response.json())
             .then((response) => {
                 this.setState({
                     usersDataSource: this.state.usersDataSource.cloneWithRows(response)

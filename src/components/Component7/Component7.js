@@ -8,14 +8,14 @@ export default class Component7 extends Component {
     return (
       <View>
         <Image
-        source={{uri: 'https://facebook.github.io/react-native/docs/assets/favicon.png'}}
+        source={{uri: 'https://bootdey.com/img/Content/avatar/avatar6.png'}}
         />
         <Image
           style={styles.faviconStyle}
-          source={{uri: 'http://goinkscape.com/wp-content/uploads/2015/04/transparent-5.png'}}
+          source={{uri: 'https://bootdey.com/img/Content/avatar/avatar1.png'}}
         />
         <Image
-          source={{uri: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAAEXRFWHRTb2Z0d2FyZQBwbmdjcnVzaEB1SfMAAABQSURBVGje7dSxCQBACARB+2/ab8BEeQNhFi6WSYzYLYudDQYGBgYGBgYGBgYGBgYGBgZmcvDqYGBgmhivGQYGBgYGBgYGBgYGBgYGBgbmQw+P/eMrC5UTVAAAAABJRU5ErkJggg=='}}
+          source={{uri: 'https://bootdey.com/img/Content/avatar/avatar7.png'}}
         />
 
         <ImageBackground
