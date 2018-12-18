@@ -1,3 +1,3 @@
 # myApp
 
-this app is a simple mobile app build using React Native
+This app is a simple mobile app testing one by one components of React Native based on React Native docs.
