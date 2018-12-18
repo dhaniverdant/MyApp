@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import {AppRegistry, Text, View} from 'react-native';
 
-import TextInputExample from './src/components/TextInputExample/TextInputExample';
+import AndroidPager from './src/components/AndroidPager/AndroidPager';
 
 export default class MyApp extends Component{
 
   render(){
     return(
-      <TextInputExample/>
+      <AndroidPager/>
     );
   }
 }
